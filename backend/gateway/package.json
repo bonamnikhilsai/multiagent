@@ -1,0 +1,24 @@
+{
+  "name": "debate-arena-gateway",
+  "version": "1.0.0",
+  "description": "Gateway Orchestrator for Multi-Agent Debate Arena",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "mongoose": "^8.4.3",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "axios": "^1.7.2",
+    "eventsource-parser": "^1.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

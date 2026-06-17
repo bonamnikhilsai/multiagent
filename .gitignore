@@ -1,0 +1,34 @@
+# ── Dependencies ──
+node_modules/
+
+# ── Environment / Secrets ──
+.env
+.env.local
+.env.*.local
+
+# ── Python ──
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+venv/
+.venv/
+
+# ── Build Output ──
+dist/
+build/
+
+# ── IDE / Editor ──
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── OS Files ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Project Specific ──
+ai-service.zip
+start-all.bat
